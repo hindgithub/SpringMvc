@@ -6,20 +6,17 @@ public class SpittrWebAppInitializer extends AbstractAnnotationConfigDispatcherS
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		// TODO Auto-generated method stub
-		return null;
+		return new Class<?>[]{};
 	}
 
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
-		// TODO Auto-generated method stub
-		return null;
+		return new Class<?>[]{};
 	}
 
 	@Override
 	protected String[] getServletMappings() {
-		// TODO Auto-generated method stub
-		return null;
+		return new String[]{"/"};
 	}
 
 }
